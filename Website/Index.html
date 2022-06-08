@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--CSS + JS Imports-->
     <link rel="stylesheet" href ="Styles.css">
     <script src="Scripts.js"></script>
+    <script src="FormToEmail.php"></script>
     <title>My Super Cool Website!</title>
 </head>
+
+
 <body>
     <div id="Main">
         <h1><b>User Details</b></h1>
         <!--Main Content-->
         <div id="UserInputDiv">
-            <form id="formInput" method="post">
 
+            <form id="formInput" action="FormToEmail.php
+            " method="post">
+                <!--Each section has a label + input in a div so it stacks nicely-->
                 <div id="NameD">
                     <label for="name">
                         Name:
-                        <input class="input" id="name" type="text"></input> 
+                        <input class="input" id="name" name="name" type="text" for="name"></input> 
                     </label> 
                 </div>
 
                 <br>
                 <div id="EmailD">
                     <label>Email:
-                        <input class="input" id="email" type="text"></input>
+                        <input class="input" id="email" name="email" type="text" for="email"></input>
                     </label>
                 </div>
                 <br>
                 <div id="CardD">
                     <label>Card:
-                        <input class="input" id="Card" type="text"></input>
+                        <input class="input" id="card" name="card"  type="text" for="card"></input>
                     </label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" id="submitButton">
                 </div>
             </form>
         </div>
     </div>
 </body>
+
+
 </html>
