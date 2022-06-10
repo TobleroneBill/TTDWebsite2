@@ -1,5 +1,5 @@
 body{
-  background-color: #89c82e;
+  background-color: #6D2EC8 ;
   text-align: center;
   padding: 3%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,15 +7,14 @@ body{
 
 #UserInputDiv{
   align-items: center;
-  background-color: #1551d3;
+  background-color: #89c82e;
   text-align: center;
   padding: 1%;
   display: block;
   border-collapse: separate;
   margin-left: 30%;
   margin-right: 30%;
-
   border-style: solid;
-
+  border-radius: 10px;
 }
 
