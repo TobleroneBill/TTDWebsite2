@@ -1,6 +1,10 @@
 # TTDWebsite2
  Test Driven Dev Website
 
+ UPDATE:
+ I made this before I knew how to properly Test Case/make automated tests. I still dont really have any idea how MVC is supposed to be structured, but if its something
+ ill need in the future, I will learn it
+
 This was for a C# Apprenticeship and mirrors an old project I made for the same purpose.
 this video is about me trying to explain my thought process but I am so pressed for time that I just basically blazed through it so it might just make you more confused instead of clarifying:
 https://youtu.be/8ftsu3inBDg
